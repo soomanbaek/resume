@@ -5,7 +5,7 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: 'Career Fair Mentoring at Alma Mater',
+      title: 'Career Fair Mentoring at Kwangwoon University',
       subTitle: '모교 취업 박람회 멘토링',
       startedAt: '2024-10',
     },
@@ -21,7 +21,7 @@ const etc: IEtc.Payload = {
       endedAt: '2023-02',
     },
     {
-      title: 'Honorably Discharged as Sergeant, Republic of Korea Air Force',
+      title: 'Discharged as Sergeant, Republic of Korea Air Force',
       subTitle: '공군 병장 만기 전역',
       startedAt: '2018-06',
       endedAt: '2020-05',
