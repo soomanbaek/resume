@@ -35,7 +35,7 @@ const kernelDevelopment: ISkill.Skill = {
     },
     {
       title: 'Express.js',
-    }
+    },
   ],
 };
 
