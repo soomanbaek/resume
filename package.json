@@ -18,7 +18,7 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://www.sooman.site",
+  "homepage": "https://sooman.site",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soomanbaek/resume-nextjs.git"
