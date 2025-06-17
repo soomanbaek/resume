@@ -9,11 +9,20 @@ const project: IProject.Payload = {
       where: 'Hyundai Autoever',
       descriptions: [
         {
-          content: 'Node.js에서 Java SpringBoot로 마이그레이션 진행',
+          content: '플랫폼 마이그레이션',
           weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: 'Node.js 기반 서비스를 Java Spring Boot로 전환',
+            },
+            {
+              content:
+                '온프레미스 Kubernetes 환경을 AWS EKS로 이전하여 인프라 안정성과 확장성 확보',
+            },
+          ],
         },
         {
-          content: '소프트웨어 품질 향상',
+          content: '품질 개선 및 테스트 체계 고도화',
           weight: 'MEDIUM',
           descriptions: [
             {
@@ -22,20 +31,11 @@ const project: IProject.Payload = {
             },
             {
               content:
-                'Service Layer의 단위 테스트 컨디셔널 커버리지를 0% → 88%까지 향상하여 코드 신뢰성과 유지보수성 개선',
+                'Service 및 Domain 레이어의 테스트 커버리지를 0% → 88%까지 향상하여 코드 신뢰성과 유지보수성 개선',
             },
             {
               content:
-                '정적 분석 도구(SonarQube)를 활용해 코드 내 Critical, Major, Minor 이슈를 모두 제거하며 코드 품질 최적화',
-            },
-          ],
-        },
-        {
-          content: '멀티스레드를 이용한 병렬 처리를 통해 성능 개선 (약 100%)',
-          descriptions: [
-            {
-              content:
-                '특정 시간에 순간적으로 트래픽이 몰릴 때, 약 40건 정도 Timeout 발생하던 이슈 해소',
+                '정적 분석 도구(SonarQube)를 활용해 코드 내 Critical, Major, Minor 이슈를 모두 제거하며 코드 품질 최적화 (267 -> 0)',
             },
           ],
         },
@@ -43,7 +43,34 @@ const project: IProject.Payload = {
           content: 'Kubernetes 환경에서 서비스 운영',
         },
         {
+          content: 'KEDA 기반 자정시간에 Kubernetes Pod 자동 스케일링 적용. Timeout 발생 이슈 해소',
+        },
+        {
           content: 'Global 지역 신규 전개',
+        },
+      ],
+    },
+    {
+      title: '커넥티드 카 서비스 개발 프로젝트',
+      startedAt: '2025-05',
+      where: 'Hyundai Autoever',
+      descriptions: [
+        {
+          content: '멀티 모듈 아키텍처 기반의 서비스 구조 설계 및 구현',
+        },
+        {
+          content: '차량 원격 제어 및 상태 조회 기능 개발',
+        },
+      ],
+    },
+    {
+      title: '커넥티드 카 연동 서비스 개발 프로젝트',
+      startedAt: '2024-03',
+      endedAt: '2024-05',
+      where: 'Hyundai Autoever',
+      descriptions: [
+        {
+          content: '커넥티드 카 서비스 가입 시, 제휴 서비스(지니뮤직, LG 게임즈 등) 연동 기능 개발',
         },
       ],
     },
