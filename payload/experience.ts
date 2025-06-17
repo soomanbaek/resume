@@ -12,8 +12,9 @@ const experience: IExperience.Payload = {
           startedAt: '2024-01',
           descriptions: [
             'CCS 인포테인먼트 서비스 백엔드 개발 및 운영',
-            'Node.js에서 Java Spring으로 서비스 마이그레이션',
+            'Node.js에서 Java Spring Boot로 서비스 마이그레이션',
             'VM 환경에서 Kubernetes 환경으로 인프라 마이그레이션',
+            '사내 k8s 스터디 주도',
           ],
           skillKeywords: [
             'Java',

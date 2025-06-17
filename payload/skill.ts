@@ -7,19 +7,16 @@ const programmingLanguages: ISkill.Skill = {
       title: 'Java',
     },
     {
+      title: 'gRPC',
+    },
+    {
+      title: 'MQTT',
+    },
+    {
       title: 'TypeScript',
     },
     {
-      title: 'Shell Script',
-    },
-    {
       title: 'C++',
-    },
-    {
-      title: 'C',
-    },
-    {
-      title: 'Python',
     },
   ],
 };
@@ -29,6 +26,9 @@ const kernelDevelopment: ISkill.Skill = {
   items: [
     {
       title: 'Spring Boot',
+    },
+    {
+      title: 'Armeria',
     },
     {
       title: 'NestJS',
