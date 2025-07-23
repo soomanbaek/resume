@@ -70,7 +70,7 @@ const project: IProject.Payload = {
       where: 'Hyundai Autoever',
       descriptions: [
         {
-          content: '커넥티드 카 서비스 가입 시, 제휴 서비스(지니뮤직, LG 게임즈 등) 연동 기능 개발',
+          content: '커넥티드 카 서비스 가입 시, 제휴 서비스 연동 기능 개발',
         },
       ],
     },
